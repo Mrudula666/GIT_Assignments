@@ -1,0 +1,37 @@
+Assignment-1:
+
+Adding a file:
+git add first.txt
+
+Renaming the file:
+git mv first.txt first-name.txt
+
+To show the current branch:
+git branch
+
+For new branch:
+git checkout -b new-branch
+
+Checking git status:
+git status
+
+To commit the changes:
+git commit -am "Adds new feature"
+
+To check the difference between the branches:
+git diff master new-branch
+
+For checking the branches are merged or not:
+git branch --merged
+
+For switching the master branch:
+git checkout master
+
+For checking the checksum of latest commit of master branch:
+git log
+
+Merging the two branches:
+git merge new-branch
+
+Check the checksum of latest commit of master branch:
+git log
